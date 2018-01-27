@@ -54,19 +54,18 @@
 /*        overflow: hidden;*/
     }
     
-/*
     .text-container {
         position: relative;
         color: black;
         font-weight: 600;
         height: 40vh;
-        top: 30vh;
+        top: 10vh;
+/*        left: 30vh;*/
         text-align: center;
-        transform: translate(50vh, 25vh); // to wykomentować jeszcze raz
-        margin:0 auto;
-        overflow: visible;
+/*        transform: translate(50vh, 25vh);*/
+/*        margin:0 auto;*/
+/*        overflow: visible;*/
     }
-*/
     .background-photo p {
     font-weight: 600;
     position: absolute;
@@ -80,11 +79,13 @@
     
     .small-font {
         font-size: 13px;
+        display: inline;
 /*        text-align: center;*/
     }
 
     .big-font {
-        font-size: 13px;
+        font-size: 33px;
+        display: inline;
 /*        text-align: center;*/
     }
 }
