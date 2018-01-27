@@ -17,18 +17,18 @@
         position: absolute;
         font-weight: 600;
         top: 10vh;
-        left: 50vh;
+        right: 5vh;
         margin-right: 5vh;
         
     }
 
     
     .small-font {
-        font-size: 2vh;
+        font-size: 3vh;
     }
 
     .big-font {
-        font-size: 3vh;
+        font-size: 4vh;
     }
     
 }
@@ -78,14 +78,16 @@
     
     
     .small-font {
-        font-size: 13px;
-        display: inline;
+        font-size: 2vh;
+/*        line-height: 4vh;*/
+/*        display: inline;*/
 /*        text-align: center;*/
     }
 
     .big-font {
-        font-size: 33px;
-        display: inline;
+        font-size: 3vh;
+        line-height: 10vh;
+/*        display: inline;*/
 /*        text-align: center;*/
     }
 }
